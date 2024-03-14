@@ -1,7 +1,7 @@
 @charset "UTF-8";
 *{
     font-family: 'Poppins', sans-serif;
-    margin:0px;
+    margin: 0px;
     padding:0px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
@@ -14,10 +14,10 @@ body{
 
 header>ul {
     display: flex;
-    margin-top:12px;
+    margin-top:30px;
     margin-left:180px;
     list-style-type: none;
-    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.233);
 }
 
 header>ul>li {
@@ -26,7 +26,7 @@ header>ul>li {
 }
 header>div{
     display: flex;
-    margin-top: 20px;
+    margin-top: 28px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -41,24 +41,42 @@ header>div>ul{
 display: flex;
 margin-left: -10px;
 list-style-type: none;
-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);
+font-weight: 600;
 }
 
 header>div>ul>li{
     padding-left:20px;
     font-size: 16px;
 }
-header>ul>li{
-    display: flex;
+.iconegps{
+    width:14px;
+    margin-right: 8px;
+    margin-top: 9px;
+}
+.areagps{
+    padding-bottom:10px;
 }
 
-.telefone>span{
-    margin-top:-2px;
+
+.iconetelefone{
+    width:15px;
+    margin-right:4px;
+    margin-top:1px
 }
-header>ul>li>p>img{
-    width:23px;
-    margin-top:-2px;
+.areatelefone{
+    margin-top:12px;
 }
+
+
+.iconewapp{
+    width:16px;
+    margin-right:3px;
+    margin-top: 2px;
+}
+.areawapp{
+    margin-top:10px;
+}
+
 
 a{
     text-decoration: none;

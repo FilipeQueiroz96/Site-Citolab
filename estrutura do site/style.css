@@ -14,10 +14,10 @@ body{
 
 header>ul {
     display: flex;
-    margin-top:12px;
+    margin-top:30px;
     margin-left:180px;
     list-style-type: none;
-    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.233);
 }
 
 header>ul>li {
@@ -26,7 +26,7 @@ header>ul>li {
 }
 header>div{
     display: flex;
-    margin-top: 20px;
+    margin-top: 28px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -41,13 +41,48 @@ header>div>ul{
 display: flex;
 margin-left: -10px;
 list-style-type: none;
-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);
+font-weight: 600;
 }
 
 header>div>ul>li{
     padding-left:20px;
     font-size: 16px;
 }
+.iconegps{
+    width:14px;
+    margin-right: 8px;
+    margin-top: 9px;
+}
+.areagps{
+    padding-bottom:10px;
+}
+
+
+.iconetelefone{
+    width:15px;
+    margin-right:4px;
+    margin-top:1px
+}
+.areatelefone{
+    margin-top:12px;
+}
+
+
+.iconewapp{
+    width:16px;
+    margin-right:3px;
+    margin-top: 2px;
+}
+.areawapp{
+    margin-top:10px;
+}
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
 
 a{
     text-decoration: none;
@@ -72,7 +107,61 @@ header>ul>li{
 .telefone>span{
     margin-top:-2px;
 }
-header>ul>li>p>img{
-    width:23px;
-    margin-top:-2px;
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+    flex-direction: column;
+}
+main>section{
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    padding:100px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.37);
+}
+main>section>form{
+    display: flex;
+    flex-direction: column;
+}
+main>section>form>div{
+    margin-top: 12px;
+}
+
+.resultado:hover{
+    color:#3a55c0;
+    transition-duration: 500ms;
+    text-shadow: 1px 1px 1px #3a55c0 ;
+}
+
+.inicio:hover{
+    color:#3a55c0;
+    text-shadow: 1px 1px 1px #3a55c0 ;
+    transition-duration: 500ms;
+}
+
+.login{
+    margin-right: 6px;
+}
+
+.divbotao{
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    padding:3px;
+}
+
+.tituloresultado{
+    margin-top: -30px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+main>section>p{
+    margin-top: 50px;
+    margin-bottom:-40px;
+    font-size: 14px;
+    text-align: center;
 }
